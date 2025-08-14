@@ -2,6 +2,8 @@
 
 GraphForge (also known as DungeonMapDigitizer in our course documentation) is an Android application that turns hand‑drawn dungeon maps into editable digital graphs. Using on‑device image pre‑processing, powered by Google's ML Kit, and a cloud‑hosted large vision–language model (LVLM), it produces a DOT‑formatted graph where rooms become nodes and hallways become edges.
 
+![Demo](Dungeon Test Aug 14 2025.gif)
+
 ### Features
 - **Camera Capture:** Snap a photo of your hand-drawn dungeon map directly in the app. The image is locally pre-proceesed for clarity using **ML Kit**.
 - **AI-powered digitization:** A large vision language model (LVLM) converts the processed image into a DOT-format graph. THe initial output identifies rooms as nodes and hallways as edges.
